@@ -43,5 +43,14 @@
         "branch-alias": {
             "dev-master": "1.8.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:edu27/WebSocketBundle.git",
+            "trunk-path": "Trunk",
+            "branches-path": "Branches",
+            "tags-path": "Tags"
+        }
+    ]
 }
