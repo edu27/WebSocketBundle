@@ -47,8 +47,9 @@ interface TopicDispatcherInterface
      * @param null                $payload
      * @param null                $exclude
      * @param null                $eligible
-     *
+     * @param null                $provider
+     * 
      * @return bool
      */
-    public function dispatch($calledMethod, ConnectionInterface $conn = null, Topic $topic, WampRequest $request, $payload = null, $exclude = null, $eligible = null);
+    public function dispatch($calledMethod, ConnectionInterface $conn, Topic $topic, WampRequest $request, $payload = null, $exclude = null, $eligible = null, $provider = null);
 }
